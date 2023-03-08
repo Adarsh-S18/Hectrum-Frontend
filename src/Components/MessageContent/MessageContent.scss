@@ -1,0 +1,35 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   
+    .messagetop{
+        display: flex;
+        .messimg{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+        .messtext{
+            padding: 10px;
+            border-radius: 20px;
+            background-color: rgb(180, 226, 255);
+            max-width: 300px;
+            font-size: 13px;
+        }
+    }
+    .messagebottom{
+        font-size: 12px;
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+}
+ .own{
+    align-items: flex-end;
+    .messtext{
+        background-color: lightblue;
+        color: black;
+    }
+}
